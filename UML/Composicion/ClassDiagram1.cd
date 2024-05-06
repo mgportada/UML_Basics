@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="COMPONE = PERTENECE&#xD;&#xA;Una persona le pertenece (como atributos) una cabeza, corazon, piernas&#xD;&#xA;Las partes se crean (new) dentro del todo. &#xD;&#xA;Por tanto si el &quot;todo&quot; se elimina, las partes también,">
+    <Position X="6.854" Y="0.667" Height="1.344" Width="4.533" />
+  </Comment>
+  <Class Name="Composicion01.Head" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Composicion\Composicion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composicion01.Arms" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composicion\Composicion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composicion01.Legs" Collapsed="true">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composicion\Composicion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composicion01.Heart" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composicion\Composicion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composicion01.Person">
+    <Position X="5" Y="2" Width="1.5" />
+    <AssociationLine Name="head" Type="Composicion01.Head" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.062" Y="2" />
+        <Point X="6.062" Y="0.781" />
+        <Point X="2.5" Y="0.781" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAABAAAAAAAAAABAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Composicion\Composicion01.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="arms" />
+      <Field Name="head" />
+      <Field Name="heart" />
+      <Field Name="legs" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

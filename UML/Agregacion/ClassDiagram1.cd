@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="AGREGAR = TIENE&#xD;&#xA;Coche tiene (como atributos) ruedas y bateria &#xD;&#xA;El coche rueda y batería pueden existir de forma independiente. Es decir, las partes se crean (new) fuera de la clase principal">
+    <Position X="1.25" Y="0.75" Height="1.156" Width="3.554" />
+  </Comment>
+  <Class Name="Agregacion01.Rueda">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAQAAAAAAgAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Agregacion\Agregacion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agregacion01.BateriaRecargable">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Agregacion\Agregacion01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agregacion01.Car">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAAAAAAgAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAA=</HashCode>
+      <FileName>Agregacion\Agregacion01.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bateria" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ruedas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

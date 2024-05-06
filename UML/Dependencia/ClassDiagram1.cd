@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="DEPENDENCIA = USA&#xD;&#xA;&#xD;&#xA;Una clase USA a otra pasada como argumento.&#xD;&#xA;Pero no la tiene y le pertenece (como atributo)">
+    <Position X="1.76" Y="0.5" Height="0.948" Width="3.981" />
+  </Comment>
+  <Class Name="Dependencia01.Alerta">
+    <Position X="1.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>Dependencia\Dependencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dependencia01.MobileSender" BaseTypeListCollapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dependencia\Dependencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dependencia01.EmailSender">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dependencia\Dependencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

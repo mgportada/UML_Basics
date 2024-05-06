@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="HERENCIA=ES&#xD;&#xA;Pez es un Animal&#xD;&#xA;Perro es un Animal&#xD;&#xA;">
+    <Position X="5.927" Y="0.781" Height="0.75" Width="2.054" />
+  </Comment>
+  <Class Name="UML.Herencia.Animal">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Herencia\Herencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UML.Herencia.Dog">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Herencia\Herencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UML.Herencia.Fish">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Herencia\Herencia01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
